@@ -1,5 +1,4 @@
 const dbService = require('../../services/db.service')
-const reviewService = require('../review/review.service')
 const ObjectId = require('mongodb').ObjectId
 
 module.exports = {
@@ -16,8 +15,6 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('user')
     try {
         const users = await collection.find(criteria).toArray();
-        // users.forEach(user => delete user.password);
-
         return users
     } catch (err) {
         console.log('ERROR: cannot find users')
@@ -30,14 +27,6 @@ async function getById(userId) {
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })
         delete user.password
-
-        user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-        user.givenReviews = user.givenReviews.map(review => {
-            delete review.byUser
-            return review
-        })
-
-
         return user
     } catch (err) {
         console.log(`ERROR: while finding user ${userId}`)

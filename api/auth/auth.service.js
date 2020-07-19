@@ -26,10 +26,6 @@ async function signup(email, password, username) {
         email,
         password: hash,
         username,
-        favColor: '#000000',
-        gender: 'unknown',
-        reminderTime: '6:55AM',
-        isAdmin: false
     })
 }
 
