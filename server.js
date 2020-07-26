@@ -42,8 +42,6 @@ app.use('/api/user', userRoutes)
 app.use('/api/template', templateRoutes)
 connectSockets(io)
 
-
-
 const logger = require('./services/logger.service')
 const port = process.env.PORT || 3000;
 http.listen(port, () => {
