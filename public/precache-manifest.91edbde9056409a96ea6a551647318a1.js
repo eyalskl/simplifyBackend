@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae560cd1d4db137882de",
-    "url": "/css/app.34acc3af.css"
+    "revision": "410260600b0389d14c8e",
+    "url": "/css/app.df7dd3df.css"
   },
   {
-    "revision": "dc6d6355483388b3238e",
+    "revision": "9a54f1dfd013a73c5268",
     "url": "/css/chunk-vendors.bab20854.css"
   },
   {
@@ -16,32 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/element-icons.732389de.ttf"
   },
   {
-    "revision": "d2e0f0ab98ce5245bd8c3d089116f954",
-    "url": "/img/easyUse.d2e0f0ab.png"
-  },
-  {
-    "revision": "99abab8e8f786968edcdea0c64a92770",
-    "url": "/img/hero-temp.99abab8e.jpg"
-  },
-  {
-    "revision": "f0ff63459469783a5ee09eb364111383",
-    "url": "/img/iphone.f0ff6345.png"
-  },
-  {
     "revision": "feb9a38faefec1a339e9ad77b4caebe0",
     "url": "/img/loadingAnimation.feb9a38f.svg"
   },
   {
-    "revision": "0d010f436021b9cf3c6357e52fb90953",
+    "revision": "c5518ea4d33c83e2a113bd87f60b265a",
     "url": "/index.html"
   },
   {
-    "revision": "ae560cd1d4db137882de",
-    "url": "/js/app.d1fc52d8.js"
+    "revision": "410260600b0389d14c8e",
+    "url": "/js/app.76ab1d38.js"
   },
   {
-    "revision": "dc6d6355483388b3238e",
-    "url": "/js/chunk-vendors.1bfeadff.js"
+    "revision": "9a54f1dfd013a73c5268",
+    "url": "/js/chunk-vendors.84dcf498.js"
   },
   {
     "revision": "26a82ee6e29e128cc69265f30ef3a4ed",
