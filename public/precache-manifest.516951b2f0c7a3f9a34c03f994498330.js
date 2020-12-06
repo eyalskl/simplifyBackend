@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7628248bd7d91a02a8f0",
-    "url": "/css/app.df7dd3df.css"
+    "revision": "1e62247b407dd7500dac",
+    "url": "/css/app.d30ab9a9.css"
   },
   {
     "revision": "97c302baa468f3d907ca",
@@ -16,16 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/element-icons.732389de.ttf"
   },
   {
+    "revision": "d2e0f0ab98ce5245bd8c3d089116f954",
+    "url": "/img/easyUse.d2e0f0ab.png"
+  },
+  {
+    "revision": "f0ff63459469783a5ee09eb364111383",
+    "url": "/img/iphone.f0ff6345.png"
+  },
+  {
     "revision": "feb9a38faefec1a339e9ad77b4caebe0",
     "url": "/img/loadingAnimation.feb9a38f.svg"
   },
   {
-    "revision": "263050136493151980ff7c6ab1878b18",
+    "revision": "c5c9bbeda2ffcf93c6c0298bd081c482",
     "url": "/index.html"
   },
   {
-    "revision": "7628248bd7d91a02a8f0",
-    "url": "/js/app.398d0579.js"
+    "revision": "1e62247b407dd7500dac",
+    "url": "/js/app.cc52d4af.js"
   },
   {
     "revision": "97c302baa468f3d907ca",
