@@ -14,7 +14,7 @@ app.use(session({
 
 
 const http = require('http').createServer(app);
-const io = require('socket.io')(http);
+// const io = require('socket.io')(http);
 
 // Express App Config
 app.use(bodyParser.json());
@@ -33,14 +33,14 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const templateRoutes = require('./api/template/template.routes')
-const connectSockets = require('./api/socket/socket.routes')
+// const connectSockets = require('./api/socket/socket.routes')
 
 
 // routes
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/template', templateRoutes)
-connectSockets(io)
+// connectSockets(io)
 
 const logger = require('./services/logger.service')
 const port = process.env.PORT || 3000;
